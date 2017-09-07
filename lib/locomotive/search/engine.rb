@@ -12,7 +12,7 @@ module Locomotive::Search
     end
 
     initializer "locomotive.search.assets.precompile", group: :all do |app|
-      app.config.assets.precompile += ['locomotive/search_bar.css', 'locomotive/search_bar.js']
+      # app.config.assets.precompile += ['locomotive/search_bar.css', 'locomotive/search_bar.js']
     end
 
   end
