@@ -7,8 +7,8 @@ require "locomotive/search/version"
 Gem::Specification.new do |s|
   s.name        = "locomotivecms-search"
   s.version     = Locomotive::Search::VERSION
-  s.authors     = ["Rodrigo Alvarez", "Didier Lafforgue"]
-  s.email       = ["papipo@gmail.com", "didier.lafforgue@gmail.com"]
+  s.authors     = ["Rodrigo Alvarez", "Didier Lafforgue", "Joshua Tyree"]
+  s.email       = ["papipo@gmail.com", "didier.lafforgue@gmail.com", "Joshua Tyree"]
   s.homepage    = "https://github.com/Papipo/locomotivecms-search"
   s.summary     = "Content search for LocomotiveCMS"
   s.description = "LocomotiveSearch is an engine which integrates ActiveSearch into LocomotiveCMS."

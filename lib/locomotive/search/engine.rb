@@ -7,8 +7,8 @@ module Locomotive::Search
 
       app.config.autoload_paths += %W(#{config.root}/app/services/locomotive)
 
-      Locomotive::PartialsCell.add_template(:custom_fields_form, "searchable")
-      Locomotive::PartialsCell.add_template(:page_form, "searchable")
+      # Locomotive::PartialsCell.add_template(:custom_fields_form, "searchable")
+      # Locomotive::PartialsCell.add_template(:page_form, "searchable")
     end
 
     initializer "locomotive.search.assets.precompile", group: :all do |app|
